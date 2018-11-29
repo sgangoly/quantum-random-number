@@ -4,7 +4,7 @@ from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister, execute, 
 
 warnings.filterwarnings("ignore")
 
-MAX_QUBITS = 5
+MAX_QUBITS = 4
 QX_URL = "https://quantumexperience.ng.bluemix.net/api"
 
 def parse_input():
